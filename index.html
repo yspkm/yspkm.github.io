@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yosep Kim</title>
+  <!--
+         - favicon
+         -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <!--
+         - custom css link
+         -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+         - google font link
+         -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://kit.fontawesome.com/6d1ca0bb27.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--
+         - #MAIN
+         -->
+  <main>
+    <!--
+            - #SIDEBAR
+            -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/profileimg.png" alt="Yosep Kim" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Yosep Kim">Yosep Kim</h1>
+          <a href="https://www.linkedin.com/in/yspkm/" class="title">LinkedIn
+          </a>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-list">
+              <a href="mailto:yskim0830@outlook.com" class="contact-link">Send Email</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="home-outline"></ion-icon>
+            </div>
+            <div class="contact-list">
+              <a href="https://yspkm.dev">
+                yspkm.dev
+              </a>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+      </div>
+    </aside>
+    <!--
+            - #main-content
+            -->
+    <div class="main-content">
+      <!--
+               - #NAVBAR
+               -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About Me</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>ETC</button>
+          </li>
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>ETC</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        -->
+        </ul>
+
+      </nav>
+      <!--
+               - #ABOUT #self-Introduction
+               -->
+      <article class="about active" data-page="about me">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Greetings,<br>
+            <br>My name is Yosep Kim.<br>
+            <br>I have keen interests in DBMS, Kubernetes, Data Pipelines, Cloud Native and DevOps(GitOps, MLOps).<br>
+            <a href="https://www.sap.com/korea/about/labs-korea.html">
+              <br>Starting on July 3rd, 2023, I will be a part of vocational training program focused on Transaction &
+              Data Virtualization of HANA Cloud Database at
+              SAP Labs Korea (Banpo).<br>
+            </a>
+            <br>Thank you.
+          </p>
+        </section>
+        <div class="separator"></div>
+        <!--
+                  - service
+                  -->
+        <!-- 
+                  - Career Summary
+                  -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Work Experiences</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">2023.7.3 ~ 2024.12+?</h4>
+              <p class="timeline-text">
+                SAP VT/STAR Program @SAP Labs Korea
+                <br>- (HANA Cloud Database) Transaction & Data Virtualization
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">2023.3.6 ~ 2023.6.23</h4>
+              <p class="timeline-text">
+                Internship Trainee @Samsung Electronics DS
+                <br>- Data Pipeline & Web (NoSQL:Cassandra, Django)
+                <br>- GitOps (K8s, Helm, Rancher, Harbor, Kaniko, Jenkins, Argo CD, Git) on GitHub Enterprise of Samsung
+                Electronics DS
+              </p>
+            </li>
+          </ol>
+        </section>
+        <div class="separator"></div>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Educational Background</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                2017.3 ~ 2024.2 (expected)
+              </h4>
+              <p class="timeline-text">
+                B.S. Computer Science & Engineering @SKKU
+              </p>
+            </li>
+          </ol>
+        </section>
+        <!--
+                  - testimonials modal
+                  -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+        </div>
+      </article>
+      <!--
+               - #Skills
+               -->
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skill">
+          <div class="filter-select-box">
+            <div class="filter-select" data-select>
+              <!--
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            -->
+            </div>
+          </div>
+
+        </section>
+
+        <div class="separator"></div>
+        <section class="skill">
+          <h3 class="h3 skills-title">Frameworks</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fab fa-python fa-2x" style="color:#f5f5f5"></i>
+                <h5 class="h5" style="font-size:90%">Django</h5>
+                <i class="fab fa-vuejs fa-2x" style="color:#f5f5f5"></i>
+                <h5 class="h5" style="font-size:90%">Vue.js</h5>
+                <i class="fa-solid fa-brain fa-2x" style="color:#f5f5f5"></i>
+                <h5 class="h5" style="font-size:90%">Pytorch</h5>
+              </div>
+            </li>
+          </ul>
+          <div class="separator"></div>
+          <h3 class="h3 skills-title">Programming Languages</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fab fa-python fa-2x" style="color:#f5f5f5"></i>
+                <i class="fab fa-c fa-2x" style="color:#f5f5f5"></i>
+                <i class="fab fa-java fa-2x" style="color:#f5f5f5"></i>
+                <i class="fab fa-brand fa-js fa-2x" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">C++</i>
+                <i style="color:#f5f5f5;">SQL<i>
+              </div>
+            </li>
+            <!-- Add more languages as needed -->
+          </ul>
+          <div class="separator"></div>
+          <h3 class="h3 skills-title">Tools</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fa-solid fa-gear" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">git </i>
+                <i style="color:#f5f5f5;">Vim </i>
+                <i style="color:#f5f5f5;">tmux </i>
+                <i style="color:#f5f5f5;">gdb </i>
+                <i style="color:#f5f5f5;">Make </i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fa-solid fa-cube" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">Kubernetes </i>
+                <i style="color:#f5f5f5;">Kaniko </i>
+                <i style="color:#f5f5f5;">Docker </i>
+                <!--
+                <i class="fab fa-docker" style="color:#f5f5f5;"></i>
+                -->
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fab fa-brands fa-dev" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">Helm </i>
+                <i style="color:#f5f5f5;">Jenkins </i>
+                <i style="color:#f5f5f5;">Harbor </i>
+                <i style="color:#f5f5f5;">Rancher </i>
+                <i style="color:#f5f5f5;">ArgoCD </i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fa-solid fa-database" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">MySQL</i>
+                <i style="color:#f5f5f5;">Cassandra</i>
+                <i style="color:#f5f5f5;">mongoDB</i>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <i class="fa-brands fa-connectdevelop" style="color:#f5f5f5"></i>
+                <i style="color:#f5f5f5;">Spark</i>
+                <i style="color:#f5f5f5;">Flink</i>
+                <i style="color:#f5f5f5;">Kafka</i>
+                <i style="color:#f5f5f5;">Airflow</i>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+      <!--
+               - #Education
+               -->
+      <article class="etc" data-page="etc">
+        <header>
+          <h2 class="h2 article-title">ETC</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">SungKyunKwan University</h4>
+              <span>2017.3 — 2024.2 (expected)</span>
+              <p class="timeline-text">
+                <i>B.S. in Computer Science & Engineering</i>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Daejeon Daeshin High School</h4>
+              <span>2013.3 — 2017.2</span>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Scholarships</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">National Science & Technology Scholarship</h4>
+              <span>
+                Spring 2023,Fall 2022,Spring 2022
+              </span>
+              <p class="timeline-text">
+                Republic of Korea
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Academic Excellence Scholarship</h4>
+              <span>Fall 2020,Spring 2020,Fall 2019</span>
+              <p class="timeline-text">
+                SungKyunKwan University
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="separator"></div>
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3" onclick="listup()">Courses</h3>
+            <!--
+            <p style="color:#ffffff;font-size:0.5px;"><-- Click</p>
+              -->
+            <input type="text" id="searchInput" onkeyup="searchList()" placeholder=" ← Click & Type ↓"
+              style="color:#ffffff">
+          </div>
+          <div>
+          </div>
+          <ol id="myList" class="timeline-list" style="color:#f5f5f5">
+            <!-- List items will be dynamically added here -->
+          </ol>
+        </section>
+
+
+
+      </article>
+      <!-- 
+               - Achievement
+               -->
+      <!--
+      <article class="achievements" data-page="achievements">
+			-->
+
+
+    </div>
+  </main>
+  <!--
+         - custom js link
+         -->
+  <script src="./assets/js/script.js"></script>
+  <!--
+         - ionicon link
+         -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
