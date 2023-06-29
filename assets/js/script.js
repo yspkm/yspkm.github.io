@@ -181,9 +181,10 @@ function listup() {
     "Data Structures",
     "Algorithms",
     "System Programming",
-    "Programming Languages",
+    "Programming Languages (Compiler & Functional Programming)",
     "Introduction to Databases",
     "Introduction to Computer Architecture",
+    "Seminar in Computer Engineering",
     "etc..",
 
     "Calculus 1",
@@ -201,12 +202,14 @@ function listup() {
     "Fundamentals of Data Analytics",
     "etc..",
 
-    "Logic Design Laboratory (HDL: Verilog)",
-    "Java Programming Lab (OOP: Java)",
     "IoT Projects (NoSQL & IoT)",
+    "Open Source Software Practice",
+    "Java Programming Lab (OOP: Java)",
+    "Logic Design Laboratory (HDL: Verilog)",
     "Electronic and Electrical Programming Laboratory",
     "The Fourth Industrial Revolution and Career Exploration",
     "The Fourth Industrial Revolution and Startup Business",
+    "Entrepreneurship and Leadership",
     "etc.."
   ];
 
